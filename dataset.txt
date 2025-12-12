@@ -1,0 +1,11 @@
+This project is a simulation of a Distributed File Storage System.
+We are using Apache Hadoop to mimic a Big Data environment.
+The system runs on a Single Node Pseudo Distributed Cluster.
+The NameNode acts as the master and manages the file system.
+The DataNode acts as the slave and stores the actual blocks of data.
+Since we only have one machine we set the replication factor to one.
+Sania is executing this project to demonstrate data storage and processing.
+MapReduce is the programming model used to process this data.
+The Mapper filters the words and the Reducer counts them.
+Hadoop HDFS provides high throughput access to application data.
+This simulation proves that we can manage files in a distributed way.
